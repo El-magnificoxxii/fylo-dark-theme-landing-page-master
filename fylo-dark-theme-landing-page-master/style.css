@@ -1,0 +1,392 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+* {
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  height: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+body {
+  background-color: hsl(218, 28%, 13%);
+  width: fit-content;
+  height: 100vh;
+}
+main {
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  line-height: 2;
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+
+}
+header nav ul li {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 24px;
+
+
+
+}
+h1, h2 {
+  text-align: center;
+}
+.header-logo {
+  margin-left: 0px;
+  margin-top: 0px;
+
+
+}
+main .call-to-action {
+  color: hsl(0, 0%, 100%);
+
+}
+main .call-to-action-head {
+  font-weight: 700;
+  font-size: 50px;
+}
+main .call-to-action-head2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+main .call-to-action-image {
+  justify-content: center;
+  display: block;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.call-to-action-button {
+  justify-content: center;
+
+}
+.get-started-button {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(198, 60%, 50%);
+  border: 1px solid hsl(198, 60%, 50%);
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.second-section-image {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.third-section-image {
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.fourth-section-image {
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.fifth-section-image {
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.sixth-section-image {
+  margin-bottom: 100px;
+  margin-top: 200px;
+}
+.column-1 {
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 20px;
+  height: 200px;
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.column-1-profile {
+  display: flex;
+  height: 110px;
+  margin-bottom: 0px;
+
+
+
+}
+.satish-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%
+}
+.profile-1 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+
+}
+.column-2 {
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 20px;
+  height: 200px;
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.column-2-profile {
+  display: flex;
+  height: 110px;
+  margin-bottom: 0px;
+
+
+}
+.bruce-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%
+}
+.profile-2 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+
+}
+
+
+.column-3 {
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 20px;
+  height: 200px;
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.column-3-profile {
+  display: flex;
+  height: 110px;
+  margin-bottom: 0px;
+
+
+}
+.iva-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%
+}
+.profile-3 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+.quotes {
+  position: relative;
+  top: 30px;
+  right: 200px;
+}
+.pictures {
+  border-radius: 50%;
+}
+form {
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 20px;
+  height: 350px;
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.input {
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+.button-2 {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(198, 60%, 50%);
+  border: 1px solid hsl(198, 60%, 50%);
+  margin-top: 10px;
+  margin-bottom: 150px;
+}
+form {
+  margin-top: 300px;
+}
+form p {
+  margin-bottom: 50px;
+}
+footer {
+  margin-bottom: 0px;
+}
+footer {
+  background-color: hsl(218, 28%, 13%);
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+footer ul {
+  list-style-type: none;
+}
+.first-list {
+  margin-bottom: 100px;
+}
+@media only screen and (min-width: 1000px) {
+  .second-third-section {
+    float: left;
+  }
+  .third-fourth-section {
+    display: flex;
+  }
+  .columns {
+    display: flex;
+  }
+}
